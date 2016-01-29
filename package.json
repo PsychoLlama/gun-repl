@@ -1,0 +1,25 @@
+{
+  "name": "gun-repl",
+  "version": "0.0.1",
+  "description": "it's a repl. for gun.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-dev-server --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "potato"
+  ],
+  "author": "Jesse Gibson <jesse@gundb.io> (http://techllama.com)",
+  "license": "MIT",
+  "dependencies": {
+    "gun": "amark/gun#develop",
+    "jquery": "^2.2.0",
+    "pretty-print-object": "^1.1.0",
+    "prettyjson": "^1.1.3"
+  },
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "webpack": "^1.12.11"
+  }
+}

@@ -1,0 +1,49 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500italic);
+@import url(https://fonts.googleapis.com/css?family=Cousine);
+/* line 11, /Users/overlord/Desktop/repl/style.scss */
+body {
+  margin: 0;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 18px;
+  color: #404448; }
+
+/* line 18, /Users/overlord/Desktop/repl/style.scss */
+h1 {
+  margin: 0;
+  padding: 25px;
+  color: #505458;
+  font-size: 200%;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif; }
+
+/* line 27, /Users/overlord/Desktop/repl/style.scss */
+form input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  box-shadow: 13px 12px 15px -10px #303438;
+  font-family: Cousine, monospace;
+  transition: box-shadow 0.3s;
+  background-color: #303438;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 150%;
+  color: #E0E0E0;
+  margin: 5vh 5%;
+  outline: none;
+  border: none;
+  width: 90%; }
+  /* line 43, /Users/overlord/Desktop/repl/style.scss */
+  form input:focus {
+    box-shadow: 10px 10px 15px -10px #303438; }
+
+/* line 48, /Users/overlord/Desktop/repl/style.scss */
+#log {
+  font-family: Cousine, monospace;
+  padding: 15px;
+  font-size: 125%; }
+
+/*# sourceMappingURL=style.css.map */

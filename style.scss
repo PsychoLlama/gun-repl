@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:500italic);
+@import url(https://fonts.googleapis.com/css?family=Cousine);
+@mixin prefix($prop, $val) {
+  -webkit-#{$prop}: $val;
+  -moz-#{$prop}: $val;
+  -ms-#{$prop}: $val;
+  -o-#{$prop}: $val;
+  #{$prop}: $val;
+}
+
+body {
+  margin: 0;
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 18px;
+  color: #404448;
+}
+
+h1 {
+  margin: 0;
+  padding: 25px;
+  color: #505458;
+  font-size: 200%;
+  text-align: center;
+  font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+form input {
+  @include prefix(appearance, none);
+  box-shadow: 13px 12px 15px -10px #303438;
+  font-family: Cousine, monospace;
+  transition: box-shadow 0.3s;
+  background-color: #303438;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 150%;
+  color: #E0E0E0;
+  margin: 5vh 5%;
+  outline: none;
+  border: none;
+  width: 90%;
+
+  &:focus {
+    box-shadow: 10px 10px 15px -10px #303438;
+  }
+}
+
+#log {
+  font-family: Cousine, monospace;
+  padding: 15px;
+  font-size: 125%;
+}
