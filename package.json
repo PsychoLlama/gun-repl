@@ -14,7 +14,7 @@
   "license": "MIT",
   "dependencies": {
     "gun": "amark/gun#develop",
-    "jquery": "^2.2.0",
+    "jquery": "^3.1.1",
     "pretty-print-object": "^1.1.0",
     "prettyjson": "^1.1.3"
   },
